@@ -1,4 +1,4 @@
-Sub Run_All_Worksheets()
+Sub Run_On_All_Worksheets()
     Dim Sheet as Worksheet
     For Each Sheet In Worksheets
         Sheet.Select
